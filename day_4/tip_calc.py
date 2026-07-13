@@ -1,0 +1,6 @@
+bill = float(input("bill:"))
+tip = float(input("Tip %:"))
+people = int(input("Number of people:"))
+total = bill + (bill * tip/100)
+each = round(total/ people, 2)
+print(f"Each person should pay:{each}")
