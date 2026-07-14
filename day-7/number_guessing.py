@@ -51,3 +51,5 @@ while guess != answer:
 
         else:
             print("Guess again.")
+
+print("my number was:",guess)
