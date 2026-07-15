@@ -4,3 +4,7 @@ for i in s:
     rev = i + rev
 
 print("Reversed string",rev)
+
+#or
+A = input("Enter your name:")
+print(A[::-1])

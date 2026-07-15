@@ -9,5 +9,5 @@ print("enter second list:")
 for i in range (n):
     list.append(int(input(2)))
     for i in range (n):
-        list 3. append list 1[i] + list 2[i]
+        list 3 . append (list 1[i]) + (list 2[i])
         print("Third list", list 3)
