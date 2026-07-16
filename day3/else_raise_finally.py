@@ -1,4 +1,4 @@
-#else
+     #else
 try:
     x = int(input("Enter a number:"))
 except ValueError:
