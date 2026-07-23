@@ -13,7 +13,7 @@ def format_data(account):
 
 def check_answer(user_guess, a_followers, b_follower):
     """Returns True if the user's guess is correct."""
-    if a_followers > b_followers:
+    if a_followers > b_follower:
         return user_guess == "A"
     else:
         return user_guess == "B"
