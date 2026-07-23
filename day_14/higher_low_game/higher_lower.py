@@ -11,7 +11,7 @@ def format_data(account):
     return f"{name}, a {description}, from {country}"
 
 
-def check_answer(user_guess, a_followers, b_followers):
+def check_answer(user_guess, a_followers, b_follower):
     """Returns True if the user's guess is correct."""
     if a_followers > b_followers:
         return user_guess == "A"
