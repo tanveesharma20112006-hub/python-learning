@@ -4,7 +4,8 @@ class Vehicle:
         self.brand = brand
     def start(self):
         print(f"{self.brand} is starting...")
-class Bike(Vehicle):
+class Bike(Vehicle): # inherit from vehicle
+    
     def __init__(self,brand):
         super().__init__(brand)
     def ride(self):
@@ -12,3 +13,4 @@ class Bike(Vehicle):
 bike = Bike("Yamaha")
 bike.start()
 bike.ride()
+#
