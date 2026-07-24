@@ -4,6 +4,7 @@
 # object - instances of
 #  class 
 class Car:
+    #(class attributes shared by all instances)
     def __init__(self,brand,model):
         self.brand = brand
         self.model = model
