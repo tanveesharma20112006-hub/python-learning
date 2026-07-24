@@ -41,4 +41,4 @@ Car.change_wheels(6)
 print(car1.display_info())    # Toyota Corolla with 6 wheels
 
 # Calling static method
-print(Car.honk())             # Beep! Beep!
+print(Car.honk())             # Beep! Beep!  
