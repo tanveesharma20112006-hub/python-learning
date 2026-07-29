@@ -11,7 +11,7 @@ tim = Turtle()
 #Creating a screen
 from turtle import Screen
 screen = Screen()
-#here exitonclick keep the window open until you click on it .
+
 
 #basic movement
 #move forward
