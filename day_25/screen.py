@@ -8,4 +8,4 @@ if shapes in ["arrow","square","triangle","circle","classic","turtle"]:
     t.shape(shapes)
 else:
     print("invalid input")
-screen.exitonclick()
+screen.exitonclick()   
